@@ -8,8 +8,8 @@
 #
 # ========================================================================= #
 
-from src.infra.queue import Queue
-from src.infra.workerThread import WorkerThread
+from infra.queue import Queue
+from infra.workerThread import WorkerThread
 
 
 class WpdPostProcessor(WorkerThread):

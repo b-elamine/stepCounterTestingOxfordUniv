@@ -14,10 +14,10 @@
 import time
 import math
 
-import src.utils as utils
-from src.infra.queue import Queue
-from src.constants import Constants
-from src.infra.workerThread import WorkerThread
+import utils as utils
+from infra.queue import Queue
+from constants import Constants
+from infra.workerThread import WorkerThread
 
 
 class WpdPreProcessor(WorkerThread):

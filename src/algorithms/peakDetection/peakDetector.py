@@ -12,8 +12,8 @@
 
 import math
 
-from src.infra.simpleDataStructure import Sds
-from src.infra.workerThread import WorkerThread
+from infra.simpleDataStructure import Sds
+from infra.workerThread import WorkerThread
 
 
 class PeakDetector(WorkerThread):

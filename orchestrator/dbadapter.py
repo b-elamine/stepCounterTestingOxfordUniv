@@ -13,7 +13,7 @@ class DbAdapter:
         log(1, self.LOG_TAG, 'Initializing results database.')
 
         
-        self.conn = psycopg2.connect(dbname="4yp_results", user="4yp", password="4yp", host="127.0.0.1", port=7001)
+        self.conn = psycopg2.connect(dbname="4yp_results", user="postgres", password="Med?!..med94", host="127.0.0.1", port=5432)
         self.cur = self.conn.cursor()
         self.cleanDatabase()
 

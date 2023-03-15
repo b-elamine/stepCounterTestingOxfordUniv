@@ -3,8 +3,8 @@ import time
 import json
 sys.dont_write_bytecode = True
 
-from src.algorithms.peakDetection.windowedPeakDetection import Wpd
-from src.ui.ui import UI
+from algorithms.peakDetection.windowedPeakDetection import Wpd
+from ui.ui import UI
 
 
 def main():
@@ -39,7 +39,7 @@ def main():
     result = algo.compare()
     print(result)
     print(1 - abs((result[1] - result[0]) / result[1]))
-    #ui = UI(algo)
+    ui = UI(algo)
 
 
 # Entry point

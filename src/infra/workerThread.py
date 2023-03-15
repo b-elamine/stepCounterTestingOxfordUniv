@@ -1,5 +1,5 @@
 
-import src.utils as utils
+import utils as utils
 from threading import Thread
 
 
@@ -30,7 +30,7 @@ class WorkerThread:
     # Check if the thread is running
     def isRunning(self):
         # If the program is in 'active' mode AND the thread is actually still running.
-        return self.active and (True if (self.thread and self.thread.isAlive()) else False)
+        return self.active and (True if (self.thread and self.thread.is_alive()) else False)
 
     # Check if the pre-processing stage is finished
     def isDone(self):

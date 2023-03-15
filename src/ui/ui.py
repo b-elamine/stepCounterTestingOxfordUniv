@@ -9,7 +9,7 @@
 #
 #========================================================================#
 
-from src.constants import Constants
+from constants import Constants
 
 import matplotlib.pyplot as plt
 

@@ -8,8 +8,8 @@
 #       in a class anywhere.
 #
 #=========================================================================#
-from src.infra.dataStructure import DataStructure
-from src.infra.simpleDataStructure import Sds
+from infra.dataStructure import DataStructure
+from infra.simpleDataStructure import Sds
 
 
 # Function to load in the accelerometer data from the CSV file.

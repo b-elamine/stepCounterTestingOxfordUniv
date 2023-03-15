@@ -9,16 +9,16 @@
 #       peak 'score' function calculator.
 #
 # ======================================================================== #
-from src import utils
+import utils
 
-from src.infra.inputPipe import InputPipe
-from src.infra.queue import Queue
+from infra.inputPipe import InputPipe
+from infra.queue import Queue
 
-from src.algorithms.peakDetection.preProcessing import WpdPreProcessor
-from src.algorithms.peakDetection.smoothingFilter import SmoothingFilter
-from src.algorithms.peakDetection.peakFuncs import PeakScorer
-from src.algorithms.peakDetection.peakDetector import PeakDetector
-from src.algorithms.peakDetection.postProcessing import WpdPostProcessor
+from algorithms.peakDetection.preProcessing import WpdPreProcessor
+from algorithms.peakDetection.smoothingFilter import SmoothingFilter
+from algorithms.peakDetection.peakFuncs import PeakScorer
+from algorithms.peakDetection.peakDetector import PeakDetector
+from algorithms.peakDetection.postProcessing import WpdPostProcessor
 
 
 

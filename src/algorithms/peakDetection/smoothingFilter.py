@@ -10,9 +10,9 @@
 # ========================================================================= #
 import math
 
-from src.infra.workerThread import WorkerThread
-from src.infra.queue import Queue
-from src.infra.simpleDataStructure import Sds
+from infra.workerThread import WorkerThread
+from infra.queue import Queue
+from infra.simpleDataStructure import Sds
 
 from scipy import special
 

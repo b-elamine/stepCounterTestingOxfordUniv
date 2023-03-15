@@ -12,8 +12,8 @@
 
 from threading import Thread
 import time
-from src.constants import Constants
-import src.utils as utils
+from constants import Constants
+import utils as utils
 
 
 class InputPipe:
